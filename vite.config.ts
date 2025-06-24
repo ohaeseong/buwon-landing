@@ -1,10 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: 3000,
-    open: true
-  }
-})
+    host: true,
+    allowedHosts: ["buwon.synology.me"],
+    port: 3001,
+    open: true,
+  },
+});
