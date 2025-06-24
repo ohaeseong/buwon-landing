@@ -7,7 +7,7 @@ const History: React.FC = () => {
       year: "2002",
       title: "부원 진열 집기 백화점 설립",
       description:
-        "소규모 진열장 제조업체로 시작하여 품질 중심의 경영 철학을 바탕으로 첫걸음을 내딛었습니다.",
+        "소규모 진열장 유통업체로 시작하여 품질 중심의 경영 철학을 바탕으로 첫걸음을 내딛었습니다.",
       icon: Building,
       color: "bg-primary-500",
     },
@@ -74,7 +74,7 @@ const History: React.FC = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">
-            부원 진열장의 30년 역사
+            부원 진열장 만에 20년 이상 역사
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             1994년 설립 이래로 끊임없는 혁신과 품질 개선을 통해 대한민국 진열장
@@ -136,10 +136,10 @@ const History: React.FC = () => {
 
         {/* Statistics */}
         <div className="mt-20 bg-gradient-to-r from-primary-600 to-primary-700 rounded-2xl p-8 text-white">
-          <h3 className="text-3xl font-bold text-center mb-8">30년간의 성과</h3>
+          <h3 className="text-3xl font-bold text-center mb-8">23년간의 성과</h3>
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold mb-2">30+</div>
+              <div className="text-4xl font-bold mb-2">20+</div>
               <div className="text-primary-100">년 경험</div>
             </div>
             <div>
@@ -163,7 +163,7 @@ const History: React.FC = () => {
             미래를 향한 비전
           </h3>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            부원 진열장은 지난 30년간 축적된 경험과 기술력을 바탕으로 더욱
+            부원 진열장은 지난 23년간 축적된 경험과 기술력을 바탕으로 더욱
             혁신적이고 지속가능한 진열 솔루션을 개발하여, 고객의 성공과 함께
             성장하는 파트너가 되겠습니다.
           </p>
